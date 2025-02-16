@@ -1,7 +1,6 @@
-version: "3.8"
 services:
   namenode:
-    image: cjj2010/hadoop:3.3.6
+    image: hadoop:latest
     ports: 
       - "9870:9870"  # Interface Web HDFS
       - "8088:8088"  # Interface Web ResourceManager
@@ -12,7 +11,7 @@ services:
       - hadoop-spark-network
 
   datanode-1:
-    image: cjj2010/hadoop:3.3.6
+    image: hadoop:latest
     hostname: datanode-1
     depends_on: 
       - namenode
@@ -24,7 +23,7 @@ services:
       - hadoop-spark-network
 
   datanode-2:
-    image: cjj2010/hadoop:3.3.6
+    image: hadoop:latest
     hostname: datanode-2
     depends_on: 
       - namenode
@@ -36,7 +35,7 @@ services:
       - hadoop-spark-network
 
   datanode-3:
-    image: cjj2010/hadoop:3.3.6
+    image: hadoop:latest
     hostname: datanode-3
     depends_on: 
       - namenode
@@ -48,7 +47,7 @@ services:
       - hadoop-spark-network
 
   datanode-4:
-    image: cjj2010/hadoop:3.3.6
+    image: hadoop:latest
     hostname: datanode-4
     depends_on: 
       - namenode
@@ -60,7 +59,7 @@ services:
       - hadoop-spark-network
 
   secondarynamenode:
-    image: cjj2010/hadoop:3.3.6
+    image: hadoop:latest
     command: hdfs secondarynamenode
     ports:
       - "9868:9868"
