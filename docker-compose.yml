@@ -1,6 +1,6 @@
 services:
   namenode:
-    image: hadoop:latest
+    image: clementtetard/hadoop:latest
     ports: 
       - "9870:9870"  # Interface Web HDFS
       - "8088:8088"  # Interface Web ResourceManager
@@ -11,7 +11,7 @@ services:
       - hadoop-spark-network
 
   datanode-1:
-    image: hadoop:latest
+    image: clementtetard/hadoop:latest
     hostname: datanode-1
     depends_on: 
       - namenode
@@ -23,7 +23,7 @@ services:
       - hadoop-spark-network
 
   datanode-2:
-    image: hadoop:latest
+    image: clementtetard/hadoop:latest
     hostname: datanode-2
     depends_on: 
       - namenode
@@ -35,7 +35,7 @@ services:
       - hadoop-spark-network
 
   datanode-3:
-    image: hadoop:latest
+    image: clementtetard/hadoop:latest
     hostname: datanode-3
     depends_on: 
       - namenode
@@ -47,7 +47,7 @@ services:
       - hadoop-spark-network
 
   datanode-4:
-    image: hadoop:latest
+    image: clementtetard/hadoop:latest
     hostname: datanode-4
     depends_on: 
       - namenode
@@ -59,7 +59,7 @@ services:
       - hadoop-spark-network
 
   secondarynamenode:
-    image: hadoop:latest
+    image: clementtetard/hadoop:latest
     command: hdfs secondarynamenode
     ports:
       - "9868:9868"
