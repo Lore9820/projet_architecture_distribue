@@ -38,42 +38,9 @@ print(top_products.show(5))
 # Écriture des résultats dans MongoDB
 top_products.write.format("mongo").mode("append").option("replaceDocument", "false").save()
 
-# Écriture des résultats dans MongoDB
-top_products.write.format("mongo").mode("append").option("replaceDocument", "false").save()
-
 # Répartition des codes HTTP par heure
 status_counts_pivot = parsed_logs.groupBy(window("timestamp", "1 hour")).pivot("status").count().orderBy("window")
 status_counts_pivot.show(5)
 
-# Nombre total de requêtes
-#total_requests = parsed_logs_rdd.count()
-#print("----------------------------------------------------")
-#print(f"Nombre total de requêtes : {total_requests}")
-#print("----------------------------------------------------")
-
-
-# Nombre de requêtes par méthode HTTP
-#nb_requests = parsed_logs_rdd.map(lambda x: (x[2], 1)).reduceByKey(lambda a, b: a + b).takeOrdered(10, key=lambda x: -x[1])
-#print("----------------------------------------------------")
-#print(f"Nombre de requêtes par methode HTTP :")
-#for req, count_req in nb_requests:
-#    print(f"{req} : {count_req}")
-#print("----------------------------------------------------")
-
-
-# Taille moyenne des réponses par code HTTP
-#avg_resp_size = parsed_logs_rdd.map(lambda x: (x[4], x[5])).reduceByKey(lambda a, b : (a + b)/2 ).collect()
-#print("----------------------------------------------------")
-#print("Taille moyenne des réponses par code HTTP")
-#for code, avg in avg_resp_size:
-#    print(f"{code} : {avg}")
-#print("----------------------------------------------------")
-
-
-# IP la plus active
-#top_ip = parsed_logs_rdd.map(lambda x: (x[0], 1)).reduceByKey(lambda a, b: a + b).takeOrdered(1, key=lambda x: -x[1])
-#print("----------------------------------------------------")
-#print("Adresse IP la plus active :")
-#for ip, ip_count in top_ip:
-#    print(f"{ip}: {ip_count}")
-#print("----------------------------------------------------")
+# Écriture des résultats dans MongoDB
+status_counts_pivot.write.format("mongo").mode("append").option("replaceDocument", "false").save()
