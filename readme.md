@@ -31,6 +31,9 @@ Commands to put in the Windows terminal opened at the root directory of the proj
 * Access Spark container to execute commands :<br>
 `docker exec -it spark-master bash`
 
+* Access MongoDB container to execute commands :<br>
+`docker exec -it projet_architecture_distribue-mongo-1 mongosh`
+
 ### HDFS commands
 
 Commands to put in the Hdfs-namnode terminal once launched with the Windows terminal.
@@ -53,6 +56,22 @@ Commands to put in the Spark terminal once launched with the Windows terminal.
 
 * Launch the script with MongoDB :<br>
 `spark-submit --master spark://spark-master:7077 --name AnalyseLogsMongoDB --packages org.mongodb.spark:mongo-spark-connector_2.12:3.0.1 /opt/spark-apps/analyze_logs.py`
+
+### MongoDB commands
+
+Commands to put in the MongoDB terminal once launched with the Windows terminal.
+
+* Show databases :<br>
+`show dbs`
+
+* Move in the database logs :<br>
+`use logs`
+
+* Show collections :<br>
+`show collections`
+
+* Access collections status_count :<br>
+`db.status_count.find().pretty()`
 
 # Authors
 
