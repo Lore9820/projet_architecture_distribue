@@ -166,6 +166,15 @@ services:
     networks:
       - hadoop-spark-network
 
+  mongo:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./mongo-data:/data/db
+    networks:
+      - hadoop-spark-network
+
 networks:
   hadoop-spark-network:
     name: hadoop-spark-network

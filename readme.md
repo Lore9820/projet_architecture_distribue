@@ -51,6 +51,9 @@ Commands to put in the Spark terminal once launched with the Windows terminal.
 * Launch the script analyse_logs.py located in the apps subfolder :<br>
 `spark-submit --master spark://spark-master:7077 --name AnalyseLogs /opt/spark-apps/analyze_logs.py`
 
+* Launch the script with MongoDB :<br>
+`spark-submit --master spark://spark-master:7077 --name AnalyseLogsMongoDB --packages org.mongodb.spark:mongo-spark-connector_2.12:3.0.1 /opt/spark-apps/analyze_logs.py`
+
 # Authors
 
 * Lore Goethals

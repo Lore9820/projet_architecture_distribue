@@ -1,9 +1,8 @@
-#from pyspark import SparkContext
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import *
 
 # Initialiser le contexte Spark
-spark = SparkSession.builder.appName("AnalyseLogsApacheDF").getOrCreate()
+spark = SparkSession.builder.appName("AnalyseLogsApacheDF").config("spark.mongodb.output.uri", "mongodb://mongo:27017/logs.status_counts").getOrCreate()
 sc = spark.sparkContext
 
 
@@ -35,6 +34,10 @@ top_products = top_products.withColumn("Name", regexp_extract(top_products['url'
 top_products = top_products.withColumn("ID", regexp_extract(top_products['url'], r'id=(\d+)', 1))
 top_products = top_products[['Name', 'ID', 'count']]
 print(top_products.show(5))
+
+
+# Écriture des résultats dans MongoDB
+top_products.write.format("mongo").mode("append").option("replaceDocument", "false").save()
 
 
 
