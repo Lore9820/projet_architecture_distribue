@@ -1,45 +1,41 @@
 #from pyspark import SparkContext
 from pyspark.sql import SparkSession
-from pyspark.sql import functions as F
-import re
+from pyspark.sql.functions import *
 
 # Initialiser le contexte Spark
-#sc = SparkContext(appName="AnalyseLogsApacheRDD")
 spark = SparkSession.builder.appName("AnalyseLogsApacheDF").getOrCreate()
 sc = spark.sparkContext
 
+
 # Charger les logs depuis HDFS
 log_file = "hdfs://namenode:9000/logs/web_server.log"
-logs_rdd = sc.textFile(log_file)
+logs_df = spark.read.text(log_file)
+logs_df = logs_df.selectExpr("CAST(value AS STRING)")
 
-# Définir le pattern regex pour parser les logs
-log_pattern = r'(\d+\.\d+\.\d+\.\d+) - - \[(.*?)\] "(.*?) (.*?) HTTP.*" (\d+) (\d+)'
-
-# Fonction pour parser une ligne de log
-def parse_log_line(line):
-    match = re.match(log_pattern, line)
-    if match:
-        return (
-        match.group(1), # IP
-        match.group(2), # Timestamp
-        match.group(3), # HTTP Method
-        match.group(4), # URL
-        int(match.group(5)), # HTTP Status
-        int(match.group(6)) # Response Size
-        )
-    else:
-        return None
 
 # Parser les logs
-parsed_logs_rdd = logs_rdd.map(parse_log_line).filter(lambda x: x is not None)
+parsed_logs = logs_df.withColumn("log_parts", split(col("value"), " ")).select(
+        col("log_parts")[0].alias("ip"),  # Adresse IP
+        regexp_extract(col("value"), r'\[(.*?)\]', 1).alias("timestamp"),  # Extraire la date entre []
+        regexp_extract(col("value"), r'"(\w+) ', 1).alias("method"),  # Extraire le verbe HTTP (GET, POST, etc.)
+        regexp_extract(col("value"), r'"(?:\w+) (.*?) HTTP', 1).alias("url"),  # Extraire l'URL demandée
+        regexp_extract(col("value"), r'HTTP/\d.\d"', 0).alias("protocol"),  # Extraire le protocole HTTP
+        col("log_parts")[8].cast("int").alias("status"),  # Code HTTP
+        col("log_parts")[9].cast("int").alias("size")  # Taille de la réponse
+    )
+
+# Afficher les logs parsés
+print(parsed_logs.show(5))
 
 
-# APicher 10 logs parsés
-print("----------------------------------------------------")
-print("Exemple de logs parsés :")
-for log in parsed_logs_rdd.take(10):
-    print(log)
-print("----------------------------------------------------")
+# Produits les plus demandées
+top_products = parsed_logs.groupBy('url').count().sort('count', ascending=False)
+top_products = top_products.filter(top_products['url'].contains("products"))
+top_products = top_products.withColumn("Name", regexp_extract(top_products['url'], r'products/(.*?)\?id', 1))
+top_products = top_products.withColumn("ID", regexp_extract(top_products['url'], r'id=(\d+)', 1))
+top_products = top_products[['Name', 'ID', 'count']]
+print(top_products.show(5))
+
 
 
 # Nombre total de requêtes
@@ -47,22 +43,6 @@ print("----------------------------------------------------")
 #print("----------------------------------------------------")
 #print(f"Nombre total de requêtes : {total_requests}")
 #print("----------------------------------------------------")
-
-
-# Top 5 des produits les plus demandées
-top_products = parsed_logs_rdd.map(lambda x: (x[3], 1)).reduceByKey(lambda a, b: a + b)
-df_tp = spark.createDataFrame(top_products, ["Product", "Count"])
-df_tp = df_tp.filter(df_tp['Product'].contains("products"))
-df_tp = df_tp.sort("Count", ascending=False)
-df_tp = df_tp.withColumn("Name", F.regexp_extract(df_tp['Product'], r'products/(.*?)id', 1))
-df_tp = df_tp.withColumn("ID", F.regexp_extract(df_tp['Product'], r'id=(\d+)', 1))
-df_tp = df_tp[['Name', 'ID', 'Count']]
-print(df_tp.show(5))
-
-
-# 
-
-
 
 
 # Nombre de requêtes par méthode HTTP
