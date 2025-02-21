@@ -15,7 +15,7 @@ logs_df = logs_df.selectExpr("CAST(value AS STRING)")
 # Parser les logs
 parsed_logs = logs_df.withColumn("log_parts", split(col("value"), " ")).select(
         col("log_parts")[0].alias("ip"),  # Adresse IP
-        regexp_extract(col("value"), r'\[(.*?)\]', 1).alias("timestamp"),  # Extraire la date entre []
+        to_timestamp(regexp_extract(col("value"), r'\[(.*?)\]', 1), 'dd/MMM/yyyy:HH:mm:ss Z').alias("timestamp"),  # Extraire la date entre []
         regexp_extract(col("value"), r'"(\w+) ', 1).alias("method"),  # Extraire le verbe HTTP (GET, POST, etc.)
         regexp_extract(col("value"), r'"(?:\w+) (.*?) HTTP', 1).alias("url"),  # Extraire l'URL demandée
         regexp_extract(col("value"), r'HTTP/\d.\d"', 0).alias("protocol"),  # Extraire le protocole HTTP
@@ -25,7 +25,6 @@ parsed_logs = logs_df.withColumn("log_parts", split(col("value"), " ")).select(
 
 # Afficher les logs parsés
 print(parsed_logs.show(5))
-
 
 # Produits les plus demandées
 top_products = parsed_logs.groupBy('url').count().sort('count', ascending=False)
@@ -39,7 +38,12 @@ print(top_products.show(5))
 # Écriture des résultats dans MongoDB
 top_products.write.format("mongo").mode("append").option("replaceDocument", "false").save()
 
+# Écriture des résultats dans MongoDB
+top_products.write.format("mongo").mode("append").option("replaceDocument", "false").save()
 
+# Répartition des codes HTTP par heure
+status_counts_pivot = parsed_logs.groupBy(window("timestamp", "1 hour")).pivot("status").count().orderBy("window")
+status_counts_pivot.show(5)
 
 # Nombre total de requêtes
 #total_requests = parsed_logs_rdd.count()
