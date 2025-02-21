@@ -174,6 +174,42 @@ services:
       - ./mongo-data:/data/db
     networks:
       - hadoop-spark-network
+  
+  zookeeper:
+    image: confluentinc/cp-zookeeper:latest
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+    ports:
+      - "2181:2181"
+    networks:
+      - hadoop-spark-network
+
+  kafka:
+    image: confluentinc/cp-kafka:latest
+    depends_on:
+      - zookeeper
+    ports:
+      - "9092:9092"
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+    networks:
+      - hadoop-spark-network
+  
+  data-generator:
+    image: python:3.9
+    container_name: data-generator
+    volumes:
+      - ./data-generator:/app
+    working_dir: /app
+    depends_on:
+      - kafka
+    entrypoint: [ "sh", "-c", "apt-get update && apt-get install -y netcat-openbsd && sh /app/wait-for-kafka.sh && pip install kafka-python && python data_generator.py" ]
+    networks:
+      - hadoop-spark-network
 
 networks:
   hadoop-spark-network:
