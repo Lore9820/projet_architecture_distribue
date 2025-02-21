@@ -5,7 +5,7 @@
 
 Le but du projet est d'analyser un fichier de logs via une architecture distribuée mise en place via Docker.
 
-Les technologies utilisées sont : Docker, Hadoop HDFS, Hadoop Spark, MongoDB.
+Les technologies utilisées sont : Docker, Hadoop HDFS, Spark, Kafka, MongoDB.
 
 ## Instructions for use
 
