@@ -2,7 +2,7 @@ from pyspark.sql import SparkSession
 from pyspark.sql.functions import *
 
 # Initialiser le contexte Spark
-spark = SparkSession.builder.appName("AnalyseLogsApacheDF").config("spark.mongodb.output.uri", "mongodb://mongo:27017/logs.status_counts").getOrCreate()
+spark = SparkSession.builder.appName("AnalyseLogsApacheDF").config("spark.mongodb.output.uri", "mongodb://mongo:27017/logs.status_count").getOrCreate()
 sc = spark.sparkContext
 
 
@@ -25,18 +25,6 @@ parsed_logs = logs_df.withColumn("log_parts", split(col("value"), " ")).select(
 
 # Afficher les logs parsés
 print(parsed_logs.show(5))
-
-# Produits les plus demandées
-top_products = parsed_logs.groupBy('url').count().sort('count', ascending=False)
-top_products = top_products.filter(top_products['url'].contains("products"))
-top_products = top_products.withColumn("Name", regexp_extract(top_products['url'], r'products/(.*?)\?id', 1))
-top_products = top_products.withColumn("ID", regexp_extract(top_products['url'], r'id=(\d+)', 1))
-top_products = top_products[['Name', 'ID', 'count']]
-print(top_products.show(5))
-
-
-# Écriture des résultats dans MongoDB
-top_products.write.format("mongo").mode("append").option("replaceDocument", "false").save()
 
 # Répartition des codes HTTP par heure
 status_counts_pivot = parsed_logs.groupBy(window("timestamp", "1 hour")).pivot("status").count().orderBy("window")
