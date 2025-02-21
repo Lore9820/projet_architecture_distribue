@@ -73,6 +73,20 @@ Commands to put in the MongoDB terminal once launched with the Windows terminal.
 * Access collections status_count :<br>
 `db.status_count.find().pretty()`
 
+### Kafka commands
+
+* Access Kafka container :<br>
+`docker exec -it projet_architecture_distribue-kafka-1 /bin/bash`
+
+* Listing all Kafka topics :<br>
+`kafka-topics --list --bootstrap-server kafka:9092`
+
+* Creating a topic named log :<br>
+` kafka-topics --create --bootstrap-server kafka:9092 --topic log --partitions 1 --replication-factor 1 `
+
+* Checking logs passed through Kafka :<br>
+`kafka-console-consumer --bootstrap-server kafka:9092 --topic log --from-beginning`
+
 # Authors
 
 * Lore Goethals
