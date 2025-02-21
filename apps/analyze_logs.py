@@ -34,7 +34,7 @@ def parse_log_line(line):
 parsed_logs_rdd = logs_rdd.map(parse_log_line).filter(lambda x: x is not None)
 
 
-# APicher 10 logs parsés
+# Afficher 10 logs parsés
 print("----------------------------------------------------")
 print("Exemple de logs parsés :")
 for log in parsed_logs_rdd.take(10):
