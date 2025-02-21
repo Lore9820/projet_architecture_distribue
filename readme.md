@@ -25,18 +25,10 @@ Commands to put in the Windows terminal opened at the root directory of the proj
 * Put the log file in the namenode :<br>
 `docker cp web_server.log projet_architecture_distribue-namenode-1:/`
 
-* Access HDFS/namenode container to execute commands :<br>
-`docker exec -it projet_architecture_distribue-namenode-1 bash`
-
-* Access Spark container to execute commands :<br>
-`docker exec -it spark-master bash`
-
-* Access MongoDB container to execute commands :<br>
-`docker exec -it projet_architecture_distribue-mongo-1 mongosh`
-
 ### HDFS commands
 
-Commands to put in the Hdfs-namnode terminal once launched with the Windows terminal.
+* Access HDFS/namenode container to execute commands :<br>
+`docker exec -it projet_architecture_distribue-namenode-1 bash`
 
 * Create subfolder logs :<br>
 `hadoop fs -mkdir /logs`
@@ -49,7 +41,8 @@ Commands to put in the Hdfs-namnode terminal once launched with the Windows term
 
 ### Spark commands
 
-Commands to put in the Spark terminal once launched with the Windows terminal.
+* Access Spark container to execute commands :<br>
+`docker exec -it spark-master bash`
 
 * Launch the script analyse_logs.py located in the apps subfolder :<br>
 `spark-submit --master spark://spark-master:7077 --name AnalyseLogs /opt/spark-apps/analyze_logs.py`
@@ -59,7 +52,8 @@ Commands to put in the Spark terminal once launched with the Windows terminal.
 
 ### MongoDB commands
 
-Commands to put in the MongoDB terminal once launched with the Windows terminal.
+* Access MongoDB container to execute commands :<br>
+`docker exec -it projet_architecture_distribue-mongo-1 mongosh`
 
 * Show databases :<br>
 `show dbs`
