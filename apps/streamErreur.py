@@ -23,17 +23,36 @@ parsed_logs = logs_df.withColumn("log_parts", split(col("value"), " ")).select(
     )
 
 # Agrégation des logs par code HTTP et intervalle de temps
-streamErreur = parsed_logs.filter(col("status").isin(404, 500)).groupBy(window(col("timestamp"), "5 minutes"), "status").count().filter(col("count") > 10)
+streamErreur = parsed_logs \
+    .filter(col("status").isin(404, 500)) \
+    .groupBy(
+        window(col("timestamp"), "2 minutes", "2 minutes"),  # Ajout du sliding interval
+        "status"
+    ) \
+    .count() \
+    .filter(col("count") > 5)
 
 # Fonction pour écrire dans MongoDB (sans écraser)
 def write_to_mongo(df, epoch_id):
     # Convertir la colonne window en format lisible
-    df_formatted = df.withColumn("start_time", col("window.start")).withColumn("end_time", col("window.end")).drop("window")
+    df_formatted = df \
+        .withColumn("start_time", col("window.start")) \
+        .withColumn("end_time", col("window.end")) \
+        .drop("window")
     
     # Écrire dans MongoDB
-    df_formatted.write.format("mongo").mode("append").option("replaceDocument", "false").save()
+    df_formatted.write \
+        .format("mongo") \
+        .mode("append") \
+        .option("replaceDocument", "false") \
+        .save()
 
 # Écriture des résultats dans MongoDB en streaming
-query = streamErreur.writeStream.outputMode("update").foreachBatch(write_to_mongo).start()
+query = streamErreur \
+    .writeStream \
+    .outputMode("complete") \
+    .trigger(processingTime="5 minutes") \
+    .foreachBatch(write_to_mongo) \
+    .start()
 
 query.awaitTermination()
