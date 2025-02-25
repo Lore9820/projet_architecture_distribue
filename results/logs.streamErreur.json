@@ -1,0 +1,120 @@
+[{
+  "_id": {
+    "$oid": "67bdbcf7c2dcfd064f673d6e"
+  },
+  "status": 404,
+  "count": {
+    "$numberLong": "24"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:18:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdbcf8a06c4809a8d9b47a"
+  },
+  "status": 500,
+  "count": {
+    "$numberLong": "15"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:18:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdbd6da06c4809a8d9b47c"
+  },
+  "status": 500,
+  "count": {
+    "$numberLong": "29"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:18:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdbd6dc2dcfd064f673d70"
+  },
+  "status": 404,
+  "count": {
+    "$numberLong": "36"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:18:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdbde4c2dcfd064f673d72"
+  },
+  "status": 404,
+  "count": {
+    "$numberLong": "46"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:18:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdbde4a06c4809a8d9b47e"
+  },
+  "status": 500,
+  "count": {
+    "$numberLong": "47"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:18:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdbe5cc2dcfd064f673d74"
+  },
+  "status": 404,
+  "count": {
+    "$numberLong": "66"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:18:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdbe5ca06c4809a8d9b480"
+  },
+  "status": 500,
+  "count": {
+    "$numberLong": "68"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:18:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+}]

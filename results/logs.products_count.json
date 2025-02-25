@@ -1,0 +1,900 @@
+[{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2c5"
+  },
+  "Name": "foundation",
+  "ID": "4",
+  "count": {
+    "$numberLong": "34394"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2c6"
+  },
+  "Name": "skincare/sunscreen",
+  "ID": "10",
+  "count": {
+    "$numberLong": "34389"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2c7"
+  },
+  "Name": "skincare/sunscreen",
+  "ID": "6",
+  "count": {
+    "$numberLong": "34360"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2c8"
+  },
+  "Name": "hair/conditioner",
+  "ID": "9",
+  "count": {
+    "$numberLong": "34355"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2c9"
+  },
+  "Name": "mascara",
+  "ID": "10",
+  "count": {
+    "$numberLong": "34318"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2ca"
+  },
+  "Name": "skincare/cream",
+  "ID": "5",
+  "count": {
+    "$numberLong": "34277"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2cb"
+  },
+  "Name": "lipstick",
+  "ID": "7",
+  "count": {
+    "$numberLong": "34234"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2cc"
+  },
+  "Name": "mascara",
+  "ID": "4",
+  "count": {
+    "$numberLong": "34213"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2cd"
+  },
+  "Name": "mascara",
+  "ID": "5",
+  "count": {
+    "$numberLong": "34204"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2ce"
+  },
+  "Name": "skincare/sunscreen",
+  "ID": "9",
+  "count": {
+    "$numberLong": "34203"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2cf"
+  },
+  "Name": "lipstick",
+  "ID": "5",
+  "count": {
+    "$numberLong": "34189"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2d0"
+  },
+  "Name": "hair/conditioner",
+  "ID": "5",
+  "count": {
+    "$numberLong": "34174"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2d1"
+  },
+  "Name": "skincare/sunscreen",
+  "ID": "8",
+  "count": {
+    "$numberLong": "34171"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2d2"
+  },
+  "Name": "skincare/cream",
+  "ID": "4",
+  "count": {
+    "$numberLong": "34165"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2d3"
+  },
+  "Name": "foundation",
+  "ID": "7",
+  "count": {
+    "$numberLong": "34153"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2d4"
+  },
+  "Name": "hair/shampoo",
+  "ID": "4",
+  "count": {
+    "$numberLong": "34150"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2d5"
+  },
+  "Name": "foundation",
+  "ID": "10",
+  "count": {
+    "$numberLong": "34148"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2d6"
+  },
+  "Name": "mascara",
+  "ID": "7",
+  "count": {
+    "$numberLong": "34147"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2d7"
+  },
+  "Name": "skincare/cream",
+  "ID": "6",
+  "count": {
+    "$numberLong": "34145"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2d8"
+  },
+  "Name": "skincare/sunscreen",
+  "ID": "2",
+  "count": {
+    "$numberLong": "34130"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2d9"
+  },
+  "Name": "mascara",
+  "ID": "8",
+  "count": {
+    "$numberLong": "34129"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2da"
+  },
+  "Name": "hair/shampoo",
+  "ID": "9",
+  "count": {
+    "$numberLong": "34129"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2db"
+  },
+  "Name": "skincare/sunscreen",
+  "ID": "4",
+  "count": {
+    "$numberLong": "34124"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2dc"
+  },
+  "Name": "foundation",
+  "ID": "3",
+  "count": {
+    "$numberLong": "34116"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2dd"
+  },
+  "Name": "lipstick",
+  "ID": "2",
+  "count": {
+    "$numberLong": "34112"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2de"
+  },
+  "Name": "eyeliner",
+  "ID": "6",
+  "count": {
+    "$numberLong": "34108"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2df"
+  },
+  "Name": "skincare/serum",
+  "ID": "2",
+  "count": {
+    "$numberLong": "34103"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2e0"
+  },
+  "Name": "mascara",
+  "ID": "9",
+  "count": {
+    "$numberLong": "34102"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2e1"
+  },
+  "Name": "skincare/cream",
+  "ID": "7",
+  "count": {
+    "$numberLong": "34097"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2e2"
+  },
+  "Name": "foundation",
+  "ID": "2",
+  "count": {
+    "$numberLong": "34079"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2e3"
+  },
+  "Name": "foundation",
+  "ID": "5",
+  "count": {
+    "$numberLong": "34063"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2e4"
+  },
+  "Name": "hair/conditioner",
+  "ID": "3",
+  "count": {
+    "$numberLong": "34045"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2e5"
+  },
+  "Name": "lipstick",
+  "ID": "4",
+  "count": {
+    "$numberLong": "34043"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2e6"
+  },
+  "Name": "skincare/serum",
+  "ID": "4",
+  "count": {
+    "$numberLong": "34036"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2e7"
+  },
+  "Name": "lipstick",
+  "ID": "8",
+  "count": {
+    "$numberLong": "34028"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2e8"
+  },
+  "Name": "skincare/serum",
+  "ID": "9",
+  "count": {
+    "$numberLong": "34020"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2e9"
+  },
+  "Name": "hair/conditioner",
+  "ID": "7",
+  "count": {
+    "$numberLong": "34017"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2ea"
+  },
+  "Name": "hair/shampoo",
+  "ID": "7",
+  "count": {
+    "$numberLong": "34008"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2eb"
+  },
+  "Name": "skincare/cream",
+  "ID": "9",
+  "count": {
+    "$numberLong": "34007"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2ec"
+  },
+  "Name": "hair/conditioner",
+  "ID": "4",
+  "count": {
+    "$numberLong": "33986"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2ed"
+  },
+  "Name": "eyeliner",
+  "ID": "4",
+  "count": {
+    "$numberLong": "33981"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2ee"
+  },
+  "Name": "lipstick",
+  "ID": "6",
+  "count": {
+    "$numberLong": "33981"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2ef"
+  },
+  "Name": "eyeliner",
+  "ID": "10",
+  "count": {
+    "$numberLong": "33980"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2f0"
+  },
+  "Name": "skincare/serum",
+  "ID": "6",
+  "count": {
+    "$numberLong": "33979"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2f1"
+  },
+  "Name": "skincare/sunscreen",
+  "ID": "7",
+  "count": {
+    "$numberLong": "33979"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2f2"
+  },
+  "Name": "skincare/sunscreen",
+  "ID": "1",
+  "count": {
+    "$numberLong": "33978"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2f3"
+  },
+  "Name": "hair/conditioner",
+  "ID": "1",
+  "count": {
+    "$numberLong": "33966"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2f4"
+  },
+  "Name": "hair/conditioner",
+  "ID": "8",
+  "count": {
+    "$numberLong": "33965"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2f5"
+  },
+  "Name": "skincare/serum",
+  "ID": "8",
+  "count": {
+    "$numberLong": "33955"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2f6"
+  },
+  "Name": "skincare/serum",
+  "ID": "10",
+  "count": {
+    "$numberLong": "33948"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2f7"
+  },
+  "Name": "eyeliner",
+  "ID": "1",
+  "count": {
+    "$numberLong": "33945"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2f8"
+  },
+  "Name": "hair/conditioner",
+  "ID": "2",
+  "count": {
+    "$numberLong": "33940"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2f9"
+  },
+  "Name": "eyeliner",
+  "ID": "9",
+  "count": {
+    "$numberLong": "33939"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2fa"
+  },
+  "Name": "hair/conditioner",
+  "ID": "10",
+  "count": {
+    "$numberLong": "33938"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2fb"
+  },
+  "Name": "skincare/cream",
+  "ID": "2",
+  "count": {
+    "$numberLong": "33934"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2fc"
+  },
+  "Name": "skincare/cream",
+  "ID": "8",
+  "count": {
+    "$numberLong": "33930"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2fd"
+  },
+  "Name": "skincare/sunscreen",
+  "ID": "3",
+  "count": {
+    "$numberLong": "33929"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2fe"
+  },
+  "Name": "hair/shampoo",
+  "ID": "5",
+  "count": {
+    "$numberLong": "33928"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e2ff"
+  },
+  "Name": "foundation",
+  "ID": "6",
+  "count": {
+    "$numberLong": "33927"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e300"
+  },
+  "Name": "hair/shampoo",
+  "ID": "3",
+  "count": {
+    "$numberLong": "33918"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e301"
+  },
+  "Name": "lipstick",
+  "ID": "3",
+  "count": {
+    "$numberLong": "33916"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e302"
+  },
+  "Name": "hair/shampoo",
+  "ID": "2",
+  "count": {
+    "$numberLong": "33915"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e303"
+  },
+  "Name": "foundation",
+  "ID": "9",
+  "count": {
+    "$numberLong": "33912"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e304"
+  },
+  "Name": "hair/shampoo",
+  "ID": "6",
+  "count": {
+    "$numberLong": "33909"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e305"
+  },
+  "Name": "foundation",
+  "ID": "1",
+  "count": {
+    "$numberLong": "33885"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e306"
+  },
+  "Name": "mascara",
+  "ID": "3",
+  "count": {
+    "$numberLong": "33880"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e307"
+  },
+  "Name": "skincare/serum",
+  "ID": "1",
+  "count": {
+    "$numberLong": "33876"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e308"
+  },
+  "Name": "mascara",
+  "ID": "1",
+  "count": {
+    "$numberLong": "33875"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e309"
+  },
+  "Name": "mascara",
+  "ID": "6",
+  "count": {
+    "$numberLong": "33874"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e30a"
+  },
+  "Name": "skincare/cream",
+  "ID": "1",
+  "count": {
+    "$numberLong": "33864"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e30b"
+  },
+  "Name": "eyeliner",
+  "ID": "7",
+  "count": {
+    "$numberLong": "33859"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e30c"
+  },
+  "Name": "lipstick",
+  "ID": "9",
+  "count": {
+    "$numberLong": "33846"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e30d"
+  },
+  "Name": "eyeliner",
+  "ID": "8",
+  "count": {
+    "$numberLong": "33840"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e30e"
+  },
+  "Name": "eyeliner",
+  "ID": "3",
+  "count": {
+    "$numberLong": "33819"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e30f"
+  },
+  "Name": "skincare/serum",
+  "ID": "5",
+  "count": {
+    "$numberLong": "33817"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e310"
+  },
+  "Name": "skincare/sunscreen",
+  "ID": "5",
+  "count": {
+    "$numberLong": "33796"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e311"
+  },
+  "Name": "hair/shampoo",
+  "ID": "10",
+  "count": {
+    "$numberLong": "33791"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e312"
+  },
+  "Name": "hair/shampoo",
+  "ID": "8",
+  "count": {
+    "$numberLong": "33790"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e313"
+  },
+  "Name": "lipstick",
+  "ID": "10",
+  "count": {
+    "$numberLong": "33789"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e314"
+  },
+  "Name": "hair/shampoo",
+  "ID": "1",
+  "count": {
+    "$numberLong": "33789"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e315"
+  },
+  "Name": "foundation",
+  "ID": "8",
+  "count": {
+    "$numberLong": "33778"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e316"
+  },
+  "Name": "eyeliner",
+  "ID": "5",
+  "count": {
+    "$numberLong": "33771"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e317"
+  },
+  "Name": "hair/conditioner",
+  "ID": "6",
+  "count": {
+    "$numberLong": "33753"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e318"
+  },
+  "Name": "skincare/serum",
+  "ID": "3",
+  "count": {
+    "$numberLong": "33751"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e319"
+  },
+  "Name": "skincare/cream",
+  "ID": "3",
+  "count": {
+    "$numberLong": "33732"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e31a"
+  },
+  "Name": "eyeliner",
+  "ID": "2",
+  "count": {
+    "$numberLong": "33726"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e31b"
+  },
+  "Name": "mascara",
+  "ID": "2",
+  "count": {
+    "$numberLong": "33721"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e31c"
+  },
+  "Name": "lipstick",
+  "ID": "1",
+  "count": {
+    "$numberLong": "33704"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e31d"
+  },
+  "Name": "skincare/cream",
+  "ID": "10",
+  "count": {
+    "$numberLong": "33642"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdb9911bf3292c2a89e31e"
+  },
+  "Name": "skincare/serum",
+  "ID": "7",
+  "count": {
+    "$numberLong": "33409"
+  }
+}]

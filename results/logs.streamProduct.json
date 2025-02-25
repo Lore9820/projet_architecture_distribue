@@ -1,0 +1,3780 @@
+[{
+  "_id": {
+    "$oid": "67bdd7a76d599a3580d699af"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "21"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7a9feb37f2a64f49e9b"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "21"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7ad6d599a3580d699b1"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "24"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7aead51932e37a24e92"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "25"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7b1feb37f2a64f49e9d"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "24"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7b4ad51932e37a24e94"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "29"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7b5feb37f2a64f49e9e"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "25"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7b56d599a3580d699b3"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "28"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7b7ad51932e37a24e95"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "22"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7b7feb37f2a64f49e9f"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "28"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7bbad51932e37a24e96"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "32"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7bcfeb37f2a64f49ea0"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "27"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7bc6d599a3580d699b5"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "29"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7bead51932e37a24e97"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "24"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7c0feb37f2a64f49ea1"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "30"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7c2ad51932e37a24e98"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "34"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7c46d599a3580d699b7"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "31"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7c4feb37f2a64f49ea2"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "30"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7c5ad51932e37a24e99"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "27"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7c6feb37f2a64f49ea3"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "35"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7caad51932e37a24e9a"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "36"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7cb6d599a3580d699b9"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "33"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7ccfeb37f2a64f49ea5"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "32"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7ccad51932e37a24e9b"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "28"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7cefeb37f2a64f49ea6"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "35"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7d0ad51932e37a24e9c"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "37"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7d2feb37f2a64f49ea7"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "34"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7d26d599a3580d699bb"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "38"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7d3ad51932e37a24e9d"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "33"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7d5feb37f2a64f49ea8"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "37"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7d7ad51932e37a24e9e"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "37"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7d86d599a3580d699bd"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "42"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7d8feb37f2a64f49ea9"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "38"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7daad51932e37a24e9f"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "36"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7dbfeb37f2a64f49eaa"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "39"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7dead51932e37a24ea0"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "41"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7dffeb37f2a64f49eab"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "41"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7df6d599a3580d699bf"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "44"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7e1ad51932e37a24ea1"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "36"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7e2feb37f2a64f49eac"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "40"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7e4ad51932e37a24ea2"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "44"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7e5feb37f2a64f49ead"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "46"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7e56d599a3580d699c1"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "45"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7e7ad51932e37a24ea3"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "36"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7e7feb37f2a64f49eae"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "42"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7eaad51932e37a24ea4"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "48"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7eb6d599a3580d699c3"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "46"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7ecfeb37f2a64f49eaf"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "46"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7eead51932e37a24ea5"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "38"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7effeb37f2a64f49eb0"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "44"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7f3ad51932e37a24ea6"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "51"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7f36d599a3580d699c5"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "49"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7f4feb37f2a64f49eb1"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "49"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7f5ad51932e37a24ea7"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "43"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7f6feb37f2a64f49eb2"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "46"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7f8ad51932e37a24ea8"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "51"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7f96d599a3580d699c7"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "51"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7f9feb37f2a64f49eb3"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "53"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7fbad51932e37a24ea9"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "43"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7fcfeb37f2a64f49eb4"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "51"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7fead51932e37a24eaa"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "53"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7ff6d599a3580d699c8"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "54"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd7fffeb37f2a64f49eb5"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "53"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd801ad51932e37a24eab"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "46"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd801feb37f2a64f49eb6"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "52"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd803ad51932e37a24eac"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "55"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd8056d599a3580d699ca"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "55"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd805feb37f2a64f49eb7"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "53"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd806ad51932e37a24ead"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "46"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd807feb37f2a64f49eb8"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "53"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd809ad51932e37a24eae"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "57"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd80a6d599a3580d699cb"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "56"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd80afeb37f2a64f49eb9"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "54"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd80bad51932e37a24eaf"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "48"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd80cfeb37f2a64f49eba"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "57"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd80dad51932e37a24eb0"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "60"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd80ffeb37f2a64f49ebb"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "55"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd80f6d599a3580d699cd"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "57"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd811ad51932e37a24eb1"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "50"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd811feb37f2a64f49ebc"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "61"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd813ad51932e37a24eb2"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "61"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd8146d599a3580d699cf"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "60"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd814feb37f2a64f49ebd"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "57"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd815ad51932e37a24eb3"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "53"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd816feb37f2a64f49ebe"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "63"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd818ad51932e37a24eb4"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "61"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd81afeb37f2a64f49ebf"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "59"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd81a6d599a3580d699d1"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "64"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd81bad51932e37a24eb5"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "54"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd81cfeb37f2a64f49ec0"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "66"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd81ead51932e37a24eb6"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "61"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd81f6d599a3580d699d3"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "66"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd820feb37f2a64f49ec1"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "65"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd821ad51932e37a24eb7"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "54"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd822feb37f2a64f49ec2"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "66"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd824ad51932e37a24eb8"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "61"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd825feb37f2a64f49ec3"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "67"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd8256d599a3580d699d5"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "69"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd826ad51932e37a24eb9"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "57"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd827feb37f2a64f49ec4"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "70"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd82aad51932e37a24eba"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "62"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd82b6d599a3580d699d7"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "70"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd82bfeb37f2a64f49ec5"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "68"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd82cad51932e37a24ebb"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "63"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd82efeb37f2a64f49ec6"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "72"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd830ad51932e37a24ebc"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "63"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd8306d599a3580d699d9"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "74"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd831feb37f2a64f49ec7"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "70"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd832ad51932e37a24ebd"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "64"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd832feb37f2a64f49ec8"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "77"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd834ad51932e37a24ebe"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "64"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd8356d599a3580d699da"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "74"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd835feb37f2a64f49ec9"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "71"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd836ad51932e37a24ebf"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "64"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd836feb37f2a64f49eca"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "78"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd838ad51932e37a24ec0"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "66"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd839feb37f2a64f49ecb"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "72"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd8396d599a3580d699db"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "75"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd83aad51932e37a24ec1"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "66"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd83bfeb37f2a64f49ecc"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "78"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd83dad51932e37a24ec2"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "68"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd83d6d599a3580d699dc"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "78"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd83efeb37f2a64f49ecd"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "74"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd83fad51932e37a24ec3"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "70"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd83ffeb37f2a64f49ece"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "79"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd841ad51932e37a24ec4"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "69"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd8426d599a3580d699dd"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "81"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd842feb37f2a64f49ecf"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "78"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd843ad51932e37a24ec5"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "71"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd843feb37f2a64f49ed0"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "80"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd845ad51932e37a24ec6"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "69"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd846feb37f2a64f49ed1"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "78"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd8476d599a3580d699de"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "83"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd847ad51932e37a24ec7"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "73"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd848feb37f2a64f49ed2"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "82"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd84aad51932e37a24ec8"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "70"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd84bfeb37f2a64f49ed3"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "81"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd84b6d599a3580d699df"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "83"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd84cad51932e37a24ec9"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "74"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd84cfeb37f2a64f49ed4"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "83"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd84ead51932e37a24eca"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "73"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd84e6d599a3580d699e0"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "86"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd84ffeb37f2a64f49ed5"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "82"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd850ad51932e37a24ecb"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "74"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd851feb37f2a64f49ed6"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "84"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd852ad51932e37a24ecc"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "74"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd8536d599a3580d699e1"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "89"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd853feb37f2a64f49ed7"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "84"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd854ad51932e37a24ecd"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "76"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd855feb37f2a64f49ed8"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "88"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd857ad51932e37a24ece"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "75"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd8576d599a3580d699e2"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "92"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd857feb37f2a64f49ed9"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "86"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd859ad51932e37a24ecf"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "76"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd85afeb37f2a64f49eda"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "89"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd85cad51932e37a24ed0"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "79"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd85dfeb37f2a64f49edb"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "87"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd85d6d599a3580d699e4"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "95"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd85ead51932e37a24ed1"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "77"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd85ffeb37f2a64f49edc"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "89"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd861ad51932e37a24ed2"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "80"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd8626d599a3580d699e6"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "95"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd863feb37f2a64f49edd"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "92"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd864ad51932e37a24ed3"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "80"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd865feb37f2a64f49ede"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "92"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd868ad51932e37a24ed4"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "80"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd869feb37f2a64f49edf"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "94"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd8696d599a3580d699e8"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "96"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd86aad51932e37a24ed5"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "83"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd86bfeb37f2a64f49ee0"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "97"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd86cad51932e37a24ed6"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "81"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd86d6d599a3580d699e9"
+  },
+  "url": "/products/eyeliner?id=7",
+  "count": {
+    "$numberLong": "21"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd86efeb37f2a64f49ee1"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "94"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd86e6d599a3580d699ea"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "96"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd86fad51932e37a24ed7"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "85"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd870feb37f2a64f49ee2"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "100"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd8726d599a3580d699eb"
+  },
+  "url": "/products/eyeliner?id=7",
+  "count": {
+    "$numberLong": "21"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd872ad51932e37a24ed8"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "82"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd8726d599a3580d699ec"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "98"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd873feb37f2a64f49ee3"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "97"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd874ad51932e37a24ed9"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "85"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd874feb37f2a64f49ee4"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "102"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd876ad51932e37a24eda"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "84"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd8766d599a3580d699ed"
+  },
+  "url": "/products/eyeliner?id=7",
+  "count": {
+    "$numberLong": "21"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd8766d599a3580d699ee"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "101"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd877feb37f2a64f49ee5"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "97"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd878ad51932e37a24edb"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "85"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd878feb37f2a64f49ee6"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "106"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd87a6d599a3580d699ef"
+  },
+  "url": "/products/eyeliner?id=7",
+  "count": {
+    "$numberLong": "21"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd87aad51932e37a24edc"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "86"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd87b6d599a3580d699f0"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "103"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd87bfeb37f2a64f49ee7"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "97"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd87cad51932e37a24edd"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "85"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd87dfeb37f2a64f49ee8"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "108"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd8806d599a3580d699f1"
+  },
+  "url": "/products/eyeliner?id=7",
+  "count": {
+    "$numberLong": "21"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd880ad51932e37a24ede"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "89"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd8806d599a3580d699f2"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "104"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd880feb37f2a64f49ee9"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "97"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd881ad51932e37a24edf"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "85"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd882feb37f2a64f49eea"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "109"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd8846d599a3580d699f3"
+  },
+  "url": "/products/eyeliner?id=7",
+  "count": {
+    "$numberLong": "22"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd884ad51932e37a24ee0"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "89"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd8846d599a3580d699f4"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "105"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd885feb37f2a64f49eeb"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "99"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd885ad51932e37a24ee1"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "85"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd886feb37f2a64f49eec"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "111"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd888ad51932e37a24ee2"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "90"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd8886d599a3580d699f5"
+  },
+  "url": "/products/eyeliner?id=7",
+  "count": {
+    "$numberLong": "22"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd889feb37f2a64f49eed"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "101"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd8896d599a3580d699f6"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "106"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd88aad51932e37a24ee3"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "87"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd88bfeb37f2a64f49eee"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "113"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd88dad51932e37a24ee4"
+  },
+  "url": "/products/skincare/sunscreen?id=4",
+  "count": {
+    "$numberLong": "21"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd88dad51932e37a24ee5"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "92"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd88d6d599a3580d699f7"
+  },
+  "url": "/products/eyeliner?id=7",
+  "count": {
+    "$numberLong": "22"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd88e6d599a3580d699f8"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "108"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd88efeb37f2a64f49eef"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "103"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd88fad51932e37a24ee6"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "88"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd890feb37f2a64f49ef0"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "115"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd892ad51932e37a24ee7"
+  },
+  "url": "/products/skincare/sunscreen?id=4",
+  "count": {
+    "$numberLong": "21"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd892ad51932e37a24ee8"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "96"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd8936d599a3580d699f9"
+  },
+  "url": "/products/eyeliner?id=7",
+  "count": {
+    "$numberLong": "22"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd893feb37f2a64f49ef1"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "104"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd8936d599a3580d699fa"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "109"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd895ad51932e37a24ee9"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "93"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd895feb37f2a64f49ef2"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "115"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd897ad51932e37a24eea"
+  },
+  "url": "/products/skincare/sunscreen?id=4",
+  "count": {
+    "$numberLong": "21"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd897ad51932e37a24eeb"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "98"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd8986d599a3580d699fb"
+  },
+  "url": "/products/eyeliner?id=7",
+  "count": {
+    "$numberLong": "22"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd898feb37f2a64f49ef3"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "105"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd8996d599a3580d699fc"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "110"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd899ad51932e37a24eec"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "94"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd89afeb37f2a64f49ef4"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "118"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd89cad51932e37a24eed"
+  },
+  "url": "/products/skincare/sunscreen?id=4",
+  "count": {
+    "$numberLong": "21"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd89dad51932e37a24eee"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "100"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd89d6d599a3580d699fd"
+  },
+  "url": "/products/eyeliner?id=7",
+  "count": {
+    "$numberLong": "22"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd89efeb37f2a64f49ef5"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "106"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd89e6d599a3580d699fe"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "111"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd89fad51932e37a24eef"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "95"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd8a1feb37f2a64f49ef6"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "120"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd8a5ad51932e37a24ef1"
+  },
+  "url": "/products/skincare/sunscreen?id=4",
+  "count": {
+    "$numberLong": "22"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd8a6ad51932e37a24ef2"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "102"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd8a66d599a3580d69a00"
+  },
+  "url": "/products/eyeliner?id=7",
+  "count": {
+    "$numberLong": "22"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd8a66d599a3580d69a01"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "113"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd8a6feb37f2a64f49ef8"
+  },
+  "url": "/user/register",
+  "count": {
+    "$numberLong": "109"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd8a8ad51932e37a24ef3"
+  },
+  "url": "/cart",
+  "count": {
+    "$numberLong": "97"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd8a8feb37f2a64f49ef9"
+  },
+  "url": "/checkout",
+  "count": {
+    "$numberLong": "123"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd8abad51932e37a24ef4"
+  },
+  "url": "/products/lipstick?id=1",
+  "count": {
+    "$numberLong": "22"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd8abad51932e37a24ef5"
+  },
+  "url": "/products/skincare/sunscreen?id=4",
+  "count": {
+    "$numberLong": "22"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd8ab6d599a3580d69a02"
+  },
+  "url": "/products/eyeliner?id=7",
+  "count": {
+    "$numberLong": "23"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd8abad51932e37a24ef6"
+  },
+  "url": "/api/recommendations",
+  "count": {
+    "$numberLong": "103"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd8ac6d599a3580d69a03"
+  },
+  "url": "/user/login",
+  "count": {
+    "$numberLong": "115"
+  },
+  "start_time": {
+    "$date": "2025-02-02T15:19:00.000Z"
+  },
+  "end_time": {
+    "$date": "2025-02-02T15:20:00.000Z"
+  }
+}]
