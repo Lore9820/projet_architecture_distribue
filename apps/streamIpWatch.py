@@ -3,7 +3,7 @@ from pyspark.sql.functions import *
 from pyspark.sql.types import *
 
 # Initialisation de la session Spark
-spark = SparkSession.builder.appName("StreamJob1").config("spark.mongodb.output.uri", "mongodb://mongo:27017/logs.streamjob1").getOrCreate()
+spark = SparkSession.builder.appName("StreamIpWatch").config("spark.mongodb.output.uri", "mongodb://mongo:27017/logs.streamIpWatch").getOrCreate()
 
 # Lecture des logs depuis Kafka
 kafka_df = spark.readStream.format("kafka").option("kafka.bootstrap.servers", "kafka:9092").option("subscribe", "log").load()
@@ -29,7 +29,7 @@ ip_watch = parsed_logs.groupBy(window(col("timestamp"), "2 minutes", "2 minutes"
 # Fonction pour écrire dans MongoDB (sans écraser)
 def write_to_mongo(df, epoch_id):
     df_formatted = df.withColumn("start_time", col("window.start")).withColumn("end_time", col("window.end")).drop("window")
-    df_formatted.write.format("mongo").mode("append").option("replaceDocument", "false").save()
+    df_formatted.write.format("mongo").mode("complete").option("replaceDocument", "true").save()
 
 
 # Écriture des résultats dans MongoDB en streaming
