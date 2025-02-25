@@ -51,7 +51,7 @@ def write_to_mongo(df, epoch_id):
 query = streamErreur \
     .writeStream \
     .outputMode("complete") \
-    .trigger(processingTime="5 minutes") \
+    .trigger(processingTime="2 minutes") \
     .foreachBatch(write_to_mongo) \
     .start()
 
