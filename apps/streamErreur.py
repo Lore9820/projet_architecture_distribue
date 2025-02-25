@@ -3,7 +3,7 @@ from pyspark.sql.functions import *
 from pyspark.sql.types import *
 
 # Initialisation de la session Spark
-spark = SparkSession.builder.appName("StreamErreur").config("spark.mongodb.output.uri", "mongodb://mongo:27017/log.streamErreur").getOrCreate()
+spark = SparkSession.builder.appName("StreamErreur").config("spark.mongodb.output.uri", "mongodb://mongo:27017/logs.streamErreur").getOrCreate()
 
 # Lecture des logs depuis Kafka
 kafka_df = spark.readStream.format("kafka").option("kafka.bootstrap.servers", "kafka:9092").option("subscribe", "log").load()
