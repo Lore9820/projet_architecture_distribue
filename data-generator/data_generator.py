@@ -13,6 +13,6 @@ while True:
     for log in f:
         producer.send("log", log.encode("utf-8"))
         print(f"Sent log: {log}")
-        time.sleep(random.uniform(0.5, 2.0))  # Envoi des logs avec un délai aléatoire entre 0.5s et 2s
+        time.sleep(random.uniform(0.2, 0.5))  # Envoi des logs avec un délai aléatoire entre 0.5s et 2s
 
 f.close()
