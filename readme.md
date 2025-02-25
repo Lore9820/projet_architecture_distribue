@@ -44,11 +44,13 @@ Commands to put in the Windows terminal opened at the root directory of the proj
 * Access Spark container to execute commands :<br>
 `docker exec -it spark-master bash`
 
-* Launch the script analyse_logs.py located in the apps subfolder :<br>
+* Launch the script located in the apps subfolder :<br>
 `spark-submit --master spark://spark-master:7077 --name AnalyseLogs /opt/spark-apps/analyze_logs.py`
 
-* Launch the script with MongoDB :<br>
-`spark-submit --master spark://spark-master:7077 --name AnalyseLogsMongoDB --packages org.mongodb.spark:mongo-spark-connector_2.12:3.0.1 /opt/spark-apps/analyze_logs.py`
+* Launch the script with MongoDB :
+    * `spark-submit --master spark://spark-master:7077 --name AnalyseLogsMongoDB --packages org.mongodb.spark:mongo-spark-connector_2.12:3.0.1 /opt/spark-apps/product_counts.py`
+    * `spark-submit --master spark://spark-master:7077 --name AnalyseLogsMongoDB --packages org.mongodb.spark:mongo-spark-connector_2.12:3.0.1 /opt/spark-apps/status_count.py`
+    * `spark-submit --master spark://spark-master:7077 --name AnalyseLogsMongoDB --packages org.mongodb.spark:mongo-spark-connector_2.12:3.0.1 /opt/spark-apps/stream_job1.py`
 
 ### MongoDB commands
 
