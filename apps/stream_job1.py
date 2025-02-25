@@ -3,7 +3,7 @@ from pyspark.sql.functions import *
 from pyspark.sql.types import *
 
 # Initialisation de la session Spark
-spark = SparkSession.builder.appName("StreamJob1").config("spark.mongodb.output.uri", "mongodb://mongo:27017/log.streamjob1").getOrCreate()
+spark = SparkSession.builder.appName("StreamJob1").config("spark.mongodb.output.uri", "mongodb://mongo:27017/logs.streamjob1").getOrCreate()
 
 # Lecture des logs depuis Kafka
 kafka_df = spark.readStream.format("kafka").option("kafka.bootstrap.servers", "kafka:9092").option("subscribe", "log").load()
@@ -22,14 +22,17 @@ parsed_logs = logs_df.withColumn("log_parts", split(col("value"), " ")).select(
         col("log_parts")[9].cast("int").alias("size")  # Taille de la réponse
     )
 
-# Agrégation des logs par code HTTP
-status_counts = parsed_logs.groupBy("status").count()
+# Surveillance activité IP
+ip_watch = parsed_logs.groupBy(window(col("timestamp"), "2 minutes", "2 minutes"), "ip").count()
+
 
 # Fonction pour écrire dans MongoDB (sans écraser)
 def write_to_mongo(df, epoch_id):
-    df.write.format("mongo").mode("append").option("replaceDocument", "false").save()
+    df_formatted = df.withColumn("start_time", col("window.start")).withColumn("end_time", col("window.end")).drop("window")
+    df_formatted.write.format("mongo").mode("append").option("replaceDocument", "false").save()
+
 
 # Écriture des résultats dans MongoDB en streaming
-query = status_counts.writeStream.outputMode("update").foreachBatch(write_to_mongo).start()
+query = ip_watch.writeStream.outputMode("complete").foreachBatch(write_to_mongo).start()
 
 query.awaitTermination()
